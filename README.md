@@ -1,9 +1,35 @@
+## Features
+- react
+- react-router-dom
+- redux
+- react-redux
+
 ## 架構設計目的
 - 默默將開發者推向模組化的設計模式
 - 讓寫好的模組不只在內部重用，也能延續到其他專案上
--
+- 降低失誤率
 
 ## 使用方式
+### 0. 前置作業
+#### 安裝
+```
+git clone git@github.com:chiunhau/redux-starter.git
+cd redux-starter
+npm install
+```
+#### 開發
+```
+npm start
+```
+#### Build
+```
+npm run build
+```
+#### 測試
+```
+npm run test
+```
+
 ### 1.建立 Component
 所有 Components 都放在`/src/components`。通常有幾個建立 Component 的時機：
 1. 具有獨立功能的 UI 組，將在網頁各處重用
